@@ -1,6 +1,8 @@
 Curso de Data Structure!
 
--Metodo busqueda biniraio: *Busqueda Binaria consiste en buscar un numero, en un Array ordenado, donde lo primero que hacemos, es establecer un inicio y un final en nuestro arreglo. -Donde nuesta variable inicio == 0, para iguualarla a la primera posicion de nuestro Array. -Donde nuestra variable final = array.lenght - 1; (Esto va a la ultima posicion de nuestro Array)
+-Metodo busqueda biniraio: *Busqueda Binaria consiste en buscar un numero, en un Array ordenado, donde lo primero que hacemos, 
+es establecer un inicio y un final en nuestro arreglo. -Donde nuesta variable inicio == 0, para iguualarla a la primera posicion 
+de nuestro Array. -Donde nuestra variable final = array.lenght - 1; (Esto va a la ultima posicion de nuestro Array)
 
 -Condiciones que debes tener:
 
@@ -17,12 +19,15 @@ arreglo y comenzar la busqueda Binaria"
 A que te suena ese Mientras?
 3. Creamos un ciclo while, para que se ejecute todo mientras (la condiciona anterior)!
 4: Codigo quedaria de esta manera:
+
+-
   while(inicio < final){
     //dividimos nuestro arreglo
     int indice = (inicio + final) / 2;
 
     //luego vienen las condiciones que debemos tener!
   }
+  
 Condiciones de Busqueda!
 1. Supongamos que tenemos una variable (int numero) que va a ser el numero que estamos buscando!
 2. ahora imagina que tenemos un arreglo ya definido. array[indice] donde array es nuestro arreglo 
