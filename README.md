@@ -1,4 +1,21 @@
 Curso de Data Structure!
+Metodo de Insercion:
+=> Insertar Inicio
+=> Insertar Antes
+=> Insertar Despues
+=> Insertar Final
+
+-Metodo Insertar Inicio: Consiste en insertar un elementos al unicio de un arreglo, pero para eso hay que tener encuenta
+si nuestro arreglo esta vacio, sino va a ver un debordamiento en mememoria y no queremos eso, ya que luego vamos a tener errores!
+Pero en conclusion insertar un elemento al inicio y si ya hay uno al inicio, simplemente al ingresar otro al inicio, el que ya esta pasara
+a la derecha y se establecera al nuevo inicio!
+
+-Condiciones que deberiamos tener:
+
+    Debemos verificar si nuestro arreglo esta vacio!
+    Si tienes elementos, ya sabes que obviamente habra un elemento al inicio,
+    con un bucle debemos rodar ese inicio, a la deracha para ingresar el nuevo 
+    inicio.
 
 -Metodo busqueda biniraio: *Busqueda Binaria consiste en buscar un numero, en un Array ordenado, donde lo primero que hacemos, 
 es establecer un inicio y un final en nuestro arreglo. -Donde nuesta variable inicio == 0, para iguualarla a la primera posicion 
